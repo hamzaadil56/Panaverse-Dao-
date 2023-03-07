@@ -13,7 +13,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const linksRef = useRef<HTMLDivElement>(null);
   return (
-    <nav className="sticky top-0 w-full bg-gray-700 md:container-xl sm:flex items-center justify-between px-20 py-6  backdrop-blur-sm bg-white/10 shadow-md   ">
+    <nav className="sticky top-0 w-full bg-gray-700 md:container-xl md:flex items-center justify-between px-20 py-6  backdrop-blur-sm bg-white/10 shadow-md   ">
       <div className="flex  justify-between items-center md:w-1/5 ">
         <div className="logo ">
           <Image
@@ -32,7 +32,7 @@ const Navbar = () => {
           <div
             className={`${styles.menu_btn__burger} ${
               isOpen ? styles.open : ""
-            } sm:hidden`}
+            } md:hidden`}
           ></div>
         </div>
       </div>
@@ -40,9 +40,9 @@ const Navbar = () => {
         ref={linksRef}
         className={`${styles.link_items} ${
           isOpen ? styles.link_items_show : ""
-        }  transition-all sm:flex  sm:place-content-evenly md:w-4/5`}
+        }  transition-all md:flex  md:place-content-evenly md:w-4/5`}
       >
-        <ul className="sm:flex   items-center">
+        <ul className="md:flex   items-center">
           <li
             className="py-3 cursor-pointer
            text-white  text-center md:mx-5"

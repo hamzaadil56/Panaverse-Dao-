@@ -16,6 +16,9 @@ module.exports = {
       colors: {
         "cyan-green": "#33d97d",
       },
+      animation: {
+        "spin-slow": "spin 120s linear infinite",
+      },
     },
   },
   plugins: [],

@@ -9,7 +9,7 @@ type Course = {
 const CourseCard = ({ course }: { course: Course }) => {
   return (
     <>
-      <div className="hover:scale-75 transition-transform cursor-pointer bg-slate-700 flex flex-col  w-[300px]  shadow-md my-10 rounded-lg  ">
+      <div className="hover:scale-75 transition-transform cursor-pointer bg-slate-700 flex flex-col mx-auto md:w-[300px]  shadow-md my-6 w-5/12  rounded-lg  ">
         <div className="w-full ">
           <Image
             alt="typescript"
@@ -19,7 +19,7 @@ const CourseCard = ({ course }: { course: Course }) => {
             src={course.img}
           />
         </div>
-        <div className=" p-5 w-full flex flex-col justify-center h-full text-white text-justify">
+        <div className=" p-5 w-full flex flex-col justify-center h-full text-sm md:text-base text-white text-justify">
           <h1>{course.quarter}</h1>
           <p className="text-slate-50">{course.description}</p>
         </div>

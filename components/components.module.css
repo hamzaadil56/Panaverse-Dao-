@@ -49,7 +49,10 @@
   background-image: url("../public/images/background.jpg");
   width: 100vw;
 }
-@media only screen and (max-width: 600px) {
+.icon {
+  color: white;
+}
+@media only screen and (max-width: 768px) {
   .link_items {
     height: 0;
     overflow: hidden;

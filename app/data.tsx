@@ -128,3 +128,26 @@ export const specializedTracks = [
     ],
   },
 ];
+
+export const media_icons = [
+  {
+    image: "/images/facebook-f.svg",
+    url: "https://www.facebook.com/groups/panaverse/",
+  },
+  {
+    image: "/images/instagram.svg",
+    url: "https://instagram.com/piaicofficial",
+  },
+  {
+    image: "/images/youtube.svg",
+    url: "https://www.youtube.com/@panaverse",
+  },
+  {
+    image: "/images/linkedin-in.svg",
+    url: "https://www.linkedin.com/company/panaverse/",
+  },
+  {
+    image: "/images/github.svg",
+    url: "https://github.com/panaverse",
+  },
+];

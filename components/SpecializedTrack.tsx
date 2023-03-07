@@ -10,15 +10,15 @@ type Track = {
 
 const SpecializedTrack = ({ track }: { track: Track }) => {
   return (
-    <div className="text-gray-50 my-10 p-10 font-light border-[1px] rounded border-slate-500">
-      <div>
+    <div className="text-gray-50 my-10 md:p-10 font-light border-[1px] rounded border-slate-500">
+      <div className="p-10 md:p-0">
         <h3 className="text-cyan-green font-medium">Specialized Track</h3>
         <h1 className="text-3xl font-medium my-5 text-justify">
           {track.title}
         </h1>
         <p>{track.description}</p>
       </div>
-      <div className="my-5">
+      <div className="my-5 p-10 md:p-0">
         <Button>Learn More</Button>
       </div>
       <div className="flex justify-between">
