@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { coreCourses } from "../app/data";
 import CourseCard from "./CourseCard";
+import Link from "next/link";
 
 const Courses = () => {
   return (
@@ -18,9 +19,18 @@ const Courses = () => {
           following three core courses.
         </p>
       </div>
-      <div className="flex justify-between w-full flex-wrap  md:p-10">
+      <div
+        id="courses"
+        className="flex justify-between w-full flex-wrap  md:p-10"
+      >
         {coreCourses.map((course, index) => (
-          <CourseCard key={index} course={course} />
+          <Link
+            key={index}
+            className="w-4/5   md:w-auto mx-auto md:m-0 "
+            href={`/q${index + 1}`}
+          >
+            <CourseCard key={index} course={course} />
+          </Link>
         ))}
       </div>
     </div>

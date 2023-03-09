@@ -29,12 +29,14 @@ export const specializedTracks = [
         description:
           "W3-351: Developing Smart Contracts and Planet-Scale Web 3.0 Dapps",
         img: "/images/dapps.jpeg",
+        category: "wmd",
       },
       {
         quarter: "Quarter 5",
         description:
           "MV-361: Developing Planet-Scale Open Virtual and Augmented Metaverse Experience",
         img: "/images/metaverse.jpeg",
+        category: "wmd",
       },
     ],
   },
@@ -48,11 +50,13 @@ export const specializedTracks = [
         description:
           "AI-351: Developing Planet-Scale Intelligent APIs and Python Programming",
         img: "/images/AI.jpeg",
+        category: "ai",
       },
       {
         quarter: "Quarter 5",
         description: "AI-361: Deep Learning and MLOps",
         img: "/images/deep-learning.jpeg",
+        category: "ai",
       },
     ],
   },
@@ -66,12 +70,14 @@ export const specializedTracks = [
         description:
           "CN-351: Certified Kubernetes Application Developer (CKAD)",
         img: "/images/kubernetes.png",
+        category: "cnc",
       },
       {
         quarter: "Quarter 5",
         description:
           "CN-361: Developing Multi-Cloud APIs using CDK for Terraform",
         img: "/images/cloud-native.jpeg",
+        category: "cnc",
       },
     ],
   },
@@ -85,11 +91,13 @@ export const specializedTracks = [
         description:
           "AC-351: Ambient Computing with Voice Assistants and Matter Protocol Devices",
         img: "/images/ambient-computing.jpeg",
+        category: "IOT",
       },
       {
         quarter: "Quarter 5",
         description: "AC-361: Embedded Programming using C and Rust",
         img: "/images/c-rust.png",
+        category: "IOT",
       },
     ],
   },
@@ -102,11 +110,13 @@ export const specializedTracks = [
         quarter: "Quarter 4",
         description: "Bio-351: Python for Biologists",
         img: "/images/genomics.jpeg",
+        category: "GB",
       },
       {
         quarter: "Quarter 5",
         description: "Bio-361: Bioinformatics with Python",
         img: "/images/bioinformatics.jpeg",
+        category: "GB",
       },
     ],
   },
@@ -119,11 +129,13 @@ export const specializedTracks = [
         quarter: "Quarter 4",
         description: "NPA-351: CCNA 200-301 Certification",
         img: "/images/ccna.jpeg",
+        category: "npa",
       },
       {
         quarter: "Quarter 5",
         description: "NPA-361: Network Programmability and Automation",
         img: "/images/network-programibilty.jpeg",
+        category: "npa",
       },
     ],
   },

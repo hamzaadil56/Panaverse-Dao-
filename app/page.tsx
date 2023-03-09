@@ -10,13 +10,10 @@ import Outcome from "@/components/Outcome";
 export default function Home() {
   return (
     <main>
-      <Background />
-      <Navbar />
       <Hero />
       <Courses />
       <TracksContainer />
       <Outcome />
-      <Footer />
     </main>
   );
 }

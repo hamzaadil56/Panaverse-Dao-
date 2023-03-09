@@ -51,7 +51,11 @@ export default function Footer() {
                   md:leading-loose hover:text-cyan-green transition-all text-sm md:text-base text-center md:text-left
                   text-gray-50"
                 >
-                  <Link href={`/${track.title}`}>{track.title}</Link>
+                  <Link
+                    href={`/${track.quarters[index]?.category}/q${index + 4}`}
+                  >
+                    {track.title}
+                  </Link>
                 </li>
               );
             })}
