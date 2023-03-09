@@ -19,10 +19,7 @@ const Courses = () => {
           following three core courses.
         </p>
       </div>
-      <div
-        id="courses"
-        className="flex justify-between w-full flex-wrap  md:p-10"
-      >
+      <div className="flex justify-between w-full flex-wrap  md:p-10">
         {coreCourses.map((course, index) => (
           <Link
             key={index}

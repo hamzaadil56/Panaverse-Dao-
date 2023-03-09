@@ -10,7 +10,7 @@ const TracksContainer = () => {
     setTrackId(index);
   };
   return (
-    <div className="p-5 md:p-0 bg-slate-800">
+    <div id="courses" className="p-5 md:p-0 bg-slate-800">
       <div className=" md:p-20 ">
         <h1 className="text-cyan-green text-3xl text-center md:text-left">
           Specialization Tracks
