@@ -55,7 +55,9 @@ const Navbar = () => {
             className="py-3 cursor-pointer
            text-white  text-center md:mx-5"
           >
-            <Link href={"#courses"}> Courses</Link>
+            <Link scroll={false} href={"/#courses"}>
+              Courses
+            </Link>
           </li>
           <li
             className="py-3 cursor-pointer
